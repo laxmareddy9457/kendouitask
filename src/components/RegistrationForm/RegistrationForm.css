@@ -112,6 +112,28 @@
     color: #2464E4 !important;
 }
 
+.k-multiselect {
+    border-radius: 5px !important;
+    color: white !important;
+}
+
+.k-multiselect.k-chip {
+    background-color: red !important;
+}
+
+.k-chip {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: solid 1px #2464E4 !important;
+    border-radius: 20px !important;
+    padding: 4px 10px !important;
+    font-weight: 500 !important;
+}
+
+.k-chip:hover {
+    background-color: #c1dcff !important;
+}
+
 @media (max-width: 640px) {
     .k-checkbox-label {
         font-size: 10px !important;
