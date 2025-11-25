@@ -11,7 +11,7 @@ import "@progress/kendo-theme-default/dist/all.css";
 const required = (value) => value ? "" : "This field is required";
 
 const genderOptions = ["Male", "Female", "Other"];
-const skilldata = ["JavaScript", "Python", "Java", "C#", "C++", , "PHP"];
+const skilldata = ["JavaScript", "Python", "Java", "C#", "C++", , "PHP", "Ruby", "Swift", "Go", "Kotlin"];
 
 const RegistrationForm = () => {
 

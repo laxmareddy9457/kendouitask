@@ -49,26 +49,25 @@
     background-color: #ffffff !important;
     color: rgb(0, 0, 0) !important;
     padding: 10px 12px !important;
+    margin: 5px;
 }
 
 .k-list-item.k-selected {
-    background-color: #2464E4 !important;
-    color: rgb(255, 255, 255) !important;
+    background-color: #76a4ff !important;
+    color: #0055ff !important;
     padding: 10px 12px !important;
+    border-radius: 5px;
+    box-shadow: none !important;
+    border: none !important;
 
 }
 
 .k-list-item:hover {
-    background-color: #1d4ed8 !important;
-    color: white !important;
+    background-color: #2464e46b !important;
+    color: #0055ff !important;
+    border-radius: 5px
 }
 
-.k-list-item .k-selected {
-    background-color: #2464E4 !important;
-    color: white !important;
-    box-shadow: none !important;
-    border: none !important;
-}
 
 .k-checkbox-label {
     font-size: 14px !important;
@@ -100,7 +99,7 @@
     color: #fff !important;
 }
 
-/* Selected month in month list */
+
 .k-calendar .k-month .k-selected,
 .k-calendar .k-calendar-view .k-selected {
     background-color: #2464E4 !important;
@@ -118,16 +117,29 @@
 }
 
 .k-chip {
-    background-color: #ffffff !important;
+    background-color: #2464e434 !important;
     color: #000000 !important;
     border: solid 1px #2464E4 !important;
-    border-radius: 20px !important;
+    border-radius: 5px !important;
     padding: 4px 10px !important;
     font-weight: 500 !important;
 }
 
+
 .k-chip:hover {
     background-color: #c1dcff !important;
+}
+
+
+.k-multiselect .k-chip .k-icon {
+    color: #2464E4 !important;
+    fill: #2464E4 !important;
+
+}
+
+.k-multiselect .k-icon {
+    color: #2464E4 !important;
+    fill: #2464E4 !important;
 }
 
 @media (max-width: 640px) {
