@@ -5,146 +5,28 @@
     width: 100vw;
 }
 
-
-.k-input {
-    border-radius: 5px !important;
-    border-color: #c0c7d6 !important;
-    width: 100% !important;
+:root {
+    --kendo-color-base: #2464E4;
+    --kendo-color-on-base: rgb(255, 255, 255);
+    --kendo-color-primary: #2464E4;
+    --kendo-color-primary-hover: #5990ff;
+    --kendo-chip-theme-colors: #0058e9;
+    --kendo-font-size: 12px;
+    --kendo-color-base-hover: #37afff;
+    --kendo-color-on-base-hover: rgb(176, 115, 115);
+    --kendo-color-on-primary: rgb(203, 207, 255);
+    --kendo-color-on-primary-hover: rgb(255, 255, 255);
+    /* --kendo-list-hover-bg: #2464e436;
+    --kendo-list-hover-text: #2464E4; */
 }
 
-.k-dropdownlist {
-    border-radius: 5px !important;
-}
+/* .k-list-item:hover,
+.k-list-item.k-hover {
+    background-color: #2464e436 !important;
+    color: #2464E4 !important;
+} */
 
-.k-input:focus-within,
-.k-dropdownlist:focus-within,
-.k-datepicker:focus-within {
-    border-color: #2464E4 !important;
-    box-shadow: 0 0 0 3px #afc9fd !important;
-}
-
-.k-datepicker {
-    border-radius: 5px !important;
-}
-
-.k-dropdownlist {
-    background-color: white !important;
-    border: solid 1px #c0c7d6 !important;
-
-}
-
-.k-checkbox {
-    border: solid 1px #c0c7d6 !important;
-}
-
-.k-button {
+/* .k-chip {
     background-color: #2464E4 !important;
     color: white !important;
-}
-
-
-
-
-.k-list-item {
-    background-color: #ffffff !important;
-    color: rgb(0, 0, 0) !important;
-    padding: 10px 12px !important;
-    margin: 5px;
-}
-
-.k-list-item.k-selected {
-    background-color: #76a4ff !important;
-    color: #0055ff !important;
-    padding: 10px 12px !important;
-    border-radius: 5px;
-    box-shadow: none !important;
-    border: none !important;
-
-}
-
-.k-list-item:hover {
-    background-color: #2464e46b !important;
-    color: #0055ff !important;
-    border-radius: 5px
-}
-
-
-.k-checkbox-label {
-    font-size: 14px !important;
-}
-
-.k-checkbox .k-selected {
-    background-color: #2464E4 !important;
-}
-
-.k-checkbox .k-check {
-    color: white !important;
-    background-color: #2464E4 !important;
-}
-
-
-.k-checkbox:checked {
-    border-color: #2464E4 !important;
-    background-color: #2464E4 !important;
-    box-shadow: none !important;
-}
-
-.k-datepicker:active {
-    color: #2464E4 !important;
-}
-
-.k-calendar .k-selected .k-link {
-    background-color: #2464E4 !important;
-    border-color: #2464E4 !important;
-    color: #fff !important;
-}
-
-
-.k-calendar .k-month .k-selected,
-.k-calendar .k-calendar-view .k-selected {
-    background-color: #2464E4 !important;
-    color: #fff !important;
-}
-
-.k-calendar .k-today .k-link {
-    border-color: #2464E4 !important;
-    color: #2464E4 !important;
-}
-
-.k-multiselect {
-    border-radius: 5px !important;
-    color: white !important;
-}
-
-.k-chip {
-    background-color: #2464e434 !important;
-    color: #000000 !important;
-    border: solid 1px #2464E4 !important;
-    border-radius: 5px !important;
-    padding: 4px 10px !important;
-    font-weight: 500 !important;
-}
-
-
-.k-chip:hover {
-    background-color: #c1dcff !important;
-}
-
-
-.k-multiselect .k-chip .k-icon {
-    color: #2464E4 !important;
-    fill: #2464E4 !important;
-
-}
-
-.k-multiselect .k-icon {
-    color: #2464E4 !important;
-    fill: #2464E4 !important;
-}
-
-@media (max-width: 640px) {
-    .k-checkbox-label {
-        font-size: 10px !important;
-    }
-
-}
+} */

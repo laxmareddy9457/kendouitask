@@ -1,0 +1,40 @@
+@use '@progress/kendo-theme-bootstrap/scss/all.scss' as * with ($kendo-button-bg: #2464E4,
+    $kendo-button-hover-bg: #2464e4,
+    $kendo-button-active-bg: #2464E466,
+    $kendo-button-text: #ffffff,
+    $kendo-list-item-selected-text: #d7e4ff,
+    $kendo-list-item-hover-text: #2464E4,
+    $kendo-list-lg-item-padding-x: 10px,
+    $kendo-font-weight: 500,
+    $kendo-chip-base-bg: #b3cbfe,
+    $kendo-list-item-hover-bg: #afc7f8,
+    $kendo-font-size: 12px);
+
+
+.main {
+    background-image: url('../../resources/background.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.k-list-item {
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.k-multiselect .k-icon {
+    color: #0f3582;
+
+}
+
+.k-checkbox-label {
+    font-size: 12px;
+}
+
+@media (max-width: 640px) {
+    .k-checkbox-label {
+        font-size: 10px;
+    }
+
+}

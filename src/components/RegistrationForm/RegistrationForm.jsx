@@ -5,13 +5,16 @@ import { DatePicker } from "@progress/kendo-react-dateinputs";
 import { MultiSelect } from "@progress/kendo-react-dropdowns";
 import { Checkbox } from "@progress/kendo-react-inputs";
 import { Button } from "@progress/kendo-react-buttons";
-import "./RegistrationForm.css";
-import "@progress/kendo-theme-default/dist/all.css";
-// Validation
+
+import "@progress/kendo-theme-bootstrap/dist/all.css";
+// import "./RegistrationForm.css";
+import "./file.scss"
+
+
 const required = (value) => value ? "" : "This field is required";
 
 const genderOptions = ["Male", "Female", "Other"];
-const skilldata = ["JavaScript", "Python", "Java", "C#", "C++", , "PHP", "Ruby", "Swift", "Go", "Kotlin"];
+const skilldata = ["JavaScript", "Python", "Java", "C#", "C++", "PHP", "Ruby", "Swift", "Go", "Kotlin"];
 
 const RegistrationForm = () => {
 
@@ -19,6 +22,8 @@ const RegistrationForm = () => {
         console.log("Form Data:", dataItem);
         alert("Registration Successful!");
     };
+
+
 
     return (
         <div className="flex flex-col items-center justify-center h-full min-h-screen main min-w-screen">
@@ -34,7 +39,7 @@ const RegistrationForm = () => {
                                 <Field label="Password" name="password" type="password" validator={required} component={Input} />
                                 <Field label="Gender" name="gender" data={genderOptions} validator={required} component={DropDownList} />
                                 <Field name="dob" label="Date of Birth" validator={required} component={DatePicker} />
-                                <Field name="Skills" label="Skills" data={skilldata} validator={required} component={MultiSelect} />
+                                <Field name="Skills" label="Skills" data={skilldata} validator={required} themeColor={'info'} component={MultiSelect} />
 
                             </div>
                             <div className="flex flex-col gap-1">
